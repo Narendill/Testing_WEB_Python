@@ -16,7 +16,6 @@
 # Подсказка: создание поста выполняется запросом к
 # https://test-stand.gb.ru/api/posts с передачей параметров title, description, content.
 
-
 import requests
 import yaml
 

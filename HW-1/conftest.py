@@ -19,5 +19,3 @@ def get_token() -> str:
 def find_title():
     """Возвращает заголовок, который хотим найти."""
     return 'python'
-
-
