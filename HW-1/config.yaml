@@ -1,0 +1,5 @@
+url_auth: 'https://test-stand.gb.ru/gateway/login'
+url_posts: 'https://test-stand.gb.ru/api/posts'
+username: 'HP'
+password: 'e6fc8ce107'
+
