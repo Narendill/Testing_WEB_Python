@@ -1,5 +1,5 @@
 address: https://test-stand.gb.ru
-browser: firefox
+browser: chrome
 sleep_time: 1
 implicitly_wait: 10
 login: HP

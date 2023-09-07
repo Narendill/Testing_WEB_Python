@@ -22,3 +22,7 @@ class BasePage:
     def go_to_site(self, url='https://test-stand.gb.ru'):
         """Метод открытия страницы."""
         return self.driver.get(url)
+
+    def get_alert_text(self):
+        alert = self.driver.switch_to.alert
+        return alert.text
