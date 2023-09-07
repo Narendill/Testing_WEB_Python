@@ -42,8 +42,6 @@ class OperationsContactUs(BasePage):
         self.find_element(TestSearchLocators3.LOCATOR_BUTTON_CONTACT_US).click()
 
         time.sleep(1)
-        alert = self.driver.switch_to.alert
-        text = alert.text
-        logging.info(f'We find text {text} in alert')
-        alert.accept()
-        return text
+        alert_text = self.get_alert_text()
+        logging.info(f'We find text {alert_text} in alert')
+        return alert_text
