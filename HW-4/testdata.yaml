@@ -1,0 +1,11 @@
+address: https://test-stand.gb.ru
+browser: chrome
+sleep_time: 1
+implicitly_wait: 10
+login: HP
+password: e6fc8ce107
+incorrect_password: e6fc8ce107-
+post_title: Василиск
+post_description: 'Немного о змеях'
+post_content: 'Опасное существо, живет в трубах и любит на всех смотреть.'
+post_photo: C:\Users\Narendill\Desktop\11_Aut_test_WEB\HW\HW-2\vas.jpg
