@@ -3,7 +3,7 @@ import logging
 
 
 class BasesApi:
-    """Базовый класс на подключение по ΑΠΙ."""
+    """Базовый класс на подключение по API."""
 
     def __init__(self, username, password):
         """Инициализация класса."""
